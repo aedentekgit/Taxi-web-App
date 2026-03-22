@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"alertId":{"$numberInt":"1"}},"name":"alertId_1","background":true,"unique":true}],"uuid":"c1aa5fcef81749859238f23094c2b6da","collectionName":"sosalerts","type":"collection"}

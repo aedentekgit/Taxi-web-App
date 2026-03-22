@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"driverId":{"$numberInt":"1"},"incentiveId":{"$numberInt":"1"}},"name":"driverId_1_incentiveId_1","background":true,"unique":true}],"uuid":"75c47266ee3c471f9daa1da257e1326c","collectionName":"driverincentiveprogresses","type":"collection"}

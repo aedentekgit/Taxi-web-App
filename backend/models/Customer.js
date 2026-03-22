@@ -15,7 +15,6 @@ const customerSchema = new mongoose.Schema({
   referredBy:  { type: mongoose.Schema.Types.ObjectId, ref: 'Customer' },
 }, { timestamps: true });
 
-customerSchema.index({ phone: 1 });
 customerSchema.index({ status: 1 });
 
 module.exports = mongoose.model('Customer', customerSchema);
