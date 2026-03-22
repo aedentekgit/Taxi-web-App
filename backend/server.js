@@ -55,6 +55,11 @@ app.use((req, res, next) => {
 // Serve static assets
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Basic root route
+app.get('/', (req, res) => {
+  res.json({ message: "MyTaxi Admin API is Running Successfully!", status: "Connected" });
+});
+
 // API Routes
 app.use('/api/auth',          authRoutes);
 app.use('/api/dashboard',     dashboardRoutes);
